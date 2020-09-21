@@ -265,7 +265,7 @@ const bibidyBootsCard = document.createElement('div');
 bibidyBootsCard.setAttribute('class', 'card');
 
 const bibidyBootsPic = document.createElement('img');
-bibidyBootsPic.src = 'paulinaLamb.jpg';
+bibidyBootsPic.src = 'photos/bootsButtonFinal.png';
 
 bibidyBootsCard.appendChild(bibidyBootsPic);
 
