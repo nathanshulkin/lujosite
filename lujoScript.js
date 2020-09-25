@@ -296,19 +296,19 @@ bootPageBootsContainer.style.backgroundColor="#FCFCFC";
 const rainPython = document.createElement('div');
 rainPython.setAttribute('class', 'quarterCard');
 const rainPythonImg = document.createElement('img');
-rainPythonImg.src = 'photos/rainbowPython.jpg';
+rainPythonImg.src = 'photos/rainbowPython.JPG';
 rainPython.appendChild(rainPythonImg);
 
 const redPython = document.createElement('div');
 redPython.setAttribute('class', 'quarterCard');
 const redPythonImg = document.createElement('img');
-redPythonImg.src = 'photos/rainbowPython2.jpg';
+redPythonImg.src = 'photos/rainbowPython2.JPG';
 redPython.appendChild(redPythonImg);
 
 const greenPython = document.createElement('div');
 greenPython.setAttribute('class', 'quarterCard');
 const greenPythonImg = document.createElement('img');
-greenPythonImg.src = 'photos/rainbowPython3.jpg';
+greenPythonImg.src = 'photos/rainbowPython3.JPG';
 greenPython.appendChild(greenPythonImg);
 
 const bluePython = document.createElement('div');
@@ -349,19 +349,19 @@ bootPageBootsContainer.appendChild(bluePython);
 const pinkPython = document.createElement('div');
 pinkPython.setAttribute('class', 'quarterCard');
 const pinkPythonImg = document.createElement('img');
-pinkPythonImg.src = 'photos/pinkPython.jpg';
+pinkPythonImg.src = 'photos/pinkPython.JPG';
 pinkPython.appendChild(pinkPythonImg);
 
 const pinkPython1 = document.createElement('div');
 pinkPython1.setAttribute('class', 'quarterCard');
 const pinkPython1Img = document.createElement('img');
-pinkPython1Img.src = 'photos/pinkPython2.jpg';
+pinkPython1Img.src = 'photos/pinkPython2.JPG';
 pinkPython1.appendChild(pinkPython1Img);
 
 const pinkPython2 = document.createElement('div');
 pinkPython2.setAttribute('class', 'quarterCard');
 const pinkPython2Img = document.createElement('img');
-pinkPython2Img.src = 'photos/pinkPython3.jpg';
+pinkPython2Img.src = 'photos/pinkPython3.JPG';
 pinkPython2.appendChild(pinkPython2Img);
 
 const bluePython1 = document.createElement('div');
@@ -404,19 +404,19 @@ bootPageBootsContainer.appendChild(bluePython1);
 const peacock = document.createElement('div');
 peacock.setAttribute('class', 'quarterCard');
 const peacockImg = document.createElement('img');
-peacockImg.src = 'photos/peacock.jpg';
+peacockImg.src = 'photos/peacock.JPG';
 peacock.appendChild(peacockImg);
 
 const peacock1 = document.createElement('div');
 peacock1.setAttribute('class', 'quarterCard');
 const peacock1Img = document.createElement('img');
-peacock1Img.src = 'photos/peacock2.jpg';
+peacock1Img.src = 'photos/peacock2.JPG';
 peacock1.appendChild(peacock1Img);
 
 const peacock2 = document.createElement('div');
 peacock2.setAttribute('class', 'quarterCard');
 const peacock2Img = document.createElement('img');
-peacock2Img.src = 'photos/peacock3.jpg';
+peacock2Img.src = 'photos/peacock3.JPG';
 peacock2.appendChild(peacock2Img);
 
 const bluePython2 = document.createElement('div');
