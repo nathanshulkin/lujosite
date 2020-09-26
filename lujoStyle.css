@@ -102,6 +102,31 @@ img {
   cursor: pointer;
 }
 
+.twoThirdCard {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: auto;
+  width: 60%;
+  height: 100%;
+  position: sticky;
+  left: 0;
+  right: 0;
+  padding: 10px;
+}
+
+.thirdCard {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 33%;
+  height: 100%;
+  position: sticky;
+  left: 0;
+  right: 0;
+  padding: 10px;
+}
+
 .quarterCard {
   display: block;
   margin-left: auto;

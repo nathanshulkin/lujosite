@@ -266,25 +266,55 @@ bootsBagContainter.appendChild(bagCard);
 bootsBagContainter.appendChild(ourStoryCard);
 
 
-
-
 // add elements to main container
 mainContainer.appendChild(fiberCard);
 mainContainer.appendChild(p0);
 mainContainer.appendChild(bootsBagContainter);
 mainContainer.appendChild(createdBy);
 
+
+
 // boot container
 // boots
+const headBootCont = document.createElement('div');
+headBootCont.setAttribute('class', 'container');
+headBootCont.style.backgroundColor="#000000";
+
 const bibidyBootsCard = document.createElement('div');
-bibidyBootsCard.setAttribute('class', 'card');
+bibidyBootsCard.setAttribute('class', 'thirdCard');
 
 const bibidyBootsPic = document.createElement('img');
-bibidyBootsPic.src = 'photos/bootsButtonFinal.png';
+bibidyBootsPic.src = 'photos/blackBckBoots.jpg';
 
 bibidyBootsCard.appendChild(bibidyBootsPic);
 
-bootContainer.appendChild(bibidyBootsCard);
+const bibidyBootsText = document.createElement('div');
+bibidyBootsText.setAttribute('class', 'twoThirdCard');
+
+const headBootTxt = document.createElement('p');
+headBootTxt.textContent = "Enhance your boot collection with a pair of LUJO boots.";
+
+const headBootTxt1 = document.createElement('p');
+headBootTxt1.textContent = "LUJO boots are handcrafted using textiles created by a collaboration" + 
+" of artisas in Patagonia, Chile. LUJO artisans create one of a kind textiles using both" + 
+"scarce and extremely fine fiber.";
+
+const headBootTxt2 = document.createElement('p');
+headBootTxt2.textContent = "Chilean artisans create LUJO textiles in small batches using a" + 
+" time honored process. LUJO textiles - one of a kind design.";
+
+const headBootTxt3 = document.createElement('p');
+headBootTxt3.textContent = "LUJO partners with Back at the Ranch boots... to design versatile" + 
+" boots that fit your personal style.";
+
+bibidyBootsText.appendChild(headBootTxt);
+bibidyBootsText.appendChild(headBootTxt1);
+bibidyBootsText.appendChild(headBootTxt2);
+bibidyBootsText.appendChild(headBootTxt3);
+
+
+headBootCont.appendChild(bibidyBootsCard);
+headBootCont.appendChild(bibidyBootsText);
 
 // container for boots
 const bootPageBootsContainer = document.createElement('div');
@@ -614,7 +644,7 @@ bootPageBootsContainer.appendChild(laura2);
 bootPageBootsContainer.appendChild(bluePython5);
 
 
-
+bootContainer.appendChild(headBootCont);
 bootContainer.appendChild(bootPageBootsContainer);
 
 
