@@ -343,7 +343,8 @@ greenPython.appendChild(greenPythonImg);
 
 const bluePython = document.createElement('div');
 bluePython.setAttribute('class', 'quarterCard');
-const bluePythonText = document.createElement('h3');
+const bluePythonText = document.createElement('p');
+bluePythonText.style.color="#000000";
 bluePythonText.textContent="Python Skin on Foot";
 bluePython.appendChild(bluePythonText);
 
@@ -396,7 +397,8 @@ pinkPython2.appendChild(pinkPython2Img);
 
 const bluePython1 = document.createElement('div');
 bluePython1.setAttribute('class', 'quarterCard');
-const bluePython1Text = document.createElement('h3');
+const bluePython1Text = document.createElement('p');
+bluePython1Text.style.color="#000000";
 bluePython1Text.textContent="Python Skin on Foot";
 bluePython1.appendChild(bluePython1Text);
 
@@ -434,7 +436,7 @@ bootPageBootsContainer.appendChild(bluePython1);
 const peacock = document.createElement('div');
 peacock.setAttribute('class', 'quarterCard');
 const peacockImg = document.createElement('img');
-peacockImg.src = 'photos/peacock.JPG';
+peacockImg.src = 'photos/peacockUpdate.png';
 peacock.appendChild(peacockImg);
 
 const peacock1 = document.createElement('div');
@@ -451,7 +453,8 @@ peacock2.appendChild(peacock2Img);
 
 const bluePython2 = document.createElement('div');
 bluePython2.setAttribute('class', 'quarterCard');
-const bluePython2Text = document.createElement('h3');
+const bluePython2Text = document.createElement('p');
+bluePython2Text.style.color="#000000";
 bluePython2Text.textContent="Peacock Skin on Foot";
 bluePython2.appendChild(bluePython2Text);
 
@@ -505,7 +508,8 @@ ostrich2.appendChild(ostrich2Img);
 
 const bluePython3 = document.createElement('div');
 bluePython3.setAttribute('class', 'quarterCard');
-const bluePython3Text = document.createElement('h3');
+const bluePython3Text = document.createElement('p');
+bluePython3Text.style.color="#000000";
 bluePython3Text.textContent="Ostrich Skin on Foot";
 bluePython3.appendChild(bluePython3Text);
 
@@ -542,24 +546,25 @@ bootPageBootsContainer.appendChild(bluePython3);
 const kiana = document.createElement('div');
 kiana.setAttribute('class', 'quarterCard');
 const kianaImg = document.createElement('img');
-kianaImg.src = 'photos/kiana.jpg';
+kianaImg.src = 'photos/kiana.png';
 kiana.appendChild(kianaImg);
 
 const kiana1 = document.createElement('div');
 kiana1.setAttribute('class', 'quarterCard');
 const kiana1Img = document.createElement('img');
-kiana1Img.src = 'photos/kiana1.jpg';
+kiana1Img.src = 'photos/kiana1.png';
 kiana1.appendChild(kiana1Img);
 
 const kiana2 = document.createElement('div');
 kiana2.setAttribute('class', 'quarterCard');
 const kiana2Img = document.createElement('img');
-kiana2Img.src = 'photos/kiana2.jpg';
+kiana2Img.src = 'photos/kiana2.png';
 kiana2.appendChild(kiana2Img);
 
 const bluePython4 = document.createElement('div');
 bluePython4.setAttribute('class', 'quarterCard');
-const bluePython4Text = document.createElement('h3');
+const bluePython4Text = document.createElement('p');
+bluePython4Text.style.color="#000000";
 bluePython4Text.textContent="Ostrich Skin on Foot";
 bluePython4.appendChild(bluePython4Text);
 
@@ -596,25 +601,26 @@ bootPageBootsContainer.appendChild(bluePython4);
 const laura = document.createElement('div');
 laura.setAttribute('class', 'quarterCard');
 const lauraImg = document.createElement('img');
-lauraImg.src = 'photos/laura.jpg';
+lauraImg.src = 'photos/laura.png';
 laura.appendChild(lauraImg);
 
 const laura1 = document.createElement('div');
 laura1.setAttribute('class', 'quarterCard');
 const laura1Img = document.createElement('img');
-laura1Img.src = 'photos/laura1.jpg';
+laura1Img.src = 'photos/laura1.png';
 laura1.appendChild(laura1Img);
 
 const laura2 = document.createElement('div');
 laura2.setAttribute('class', 'quarterCard');
 const laura2Img = document.createElement('img');
-laura2Img.src = 'photos/laura2.jpg';
+laura2Img.src = 'photos/laura2.png';
 laura2.appendChild(laura2Img);
 
 const bluePython5 = document.createElement('div');
 bluePython5.setAttribute('class', 'quarterCard');
-const bluePython5Text = document.createElement('h3');
+const bluePython5Text = document.createElement('p');
 bluePython5Text.textContent="Ostrich Skin on Foot";
+bluePython5Text.style.color="#000000";
 bluePython5.appendChild(bluePython5Text);
 
 const bootText50 = document.createElement('p');
@@ -650,7 +656,39 @@ bootContainer.appendChild(bootPageBootsContainer);
 
 
 
+// hand bag page
+// hand bag container
+// boots
+const handBagCont = document.createElement('div');
+handBagCont.setAttribute('class', 'container');
+handBagCont.style.backgroundColor="#000000";
+
+const bibidyBagsCard = document.createElement('div');
+bibidyBagsCard.setAttribute('class', 'thirdCard');
+
+const bibidyBagsPic = document.createElement('img');
+bibidyBagsPic.src = 'photos/blueCircleBag.png';
+
+bibidyBagsCard.appendChild(bibidyBagsPic);
+
+const bibidyBagsText = document.createElement('div');
+bibidyBagsText.setAttribute('class', 'twoThirdCard');
+
+const headBagTxt = document.createElement('p');
+headBagTxt.textContent = "Still in progress...";
+
+bibidyBagsText.appendChild(headBagTxt);
+
+
+handBagCont.appendChild(bibidyBagsCard);
+handBagCont.appendChild(bibidyBagsText);
+
+handbagContainer.appendChild(handBagCont);
+
+
+
 // add containers to page
 app.appendChild(ddown)
 app.appendChild(mainContainer);
 app.appendChild(bootContainer);
+app.appendChild(handbagContainer);
