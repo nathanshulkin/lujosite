@@ -24,6 +24,9 @@ bootContainer.setAttribute('class', 'container');
 const storyContainer = document.createElement('div');
 storyContainer.setAttribute('class', 'container');
 
+const socialEntContainer = document.createElement('div');
+socialEntContainer.setAttribute('class', 'container');
+
 // hide the non main containers
 handbagContainer.style.display = "none";
 bootContainer.style.display = "none";
@@ -34,6 +37,7 @@ storyContainer.style.display = "none";
 const createdBy = document.createElement('div');
 createdBy.setAttribute('class', 'bottomCard');
 const createdByText = document.createElement('p');
+createdByText.style.textAlign="center";
 createdByText.textContent="Website Built by Nathan Shulkin";
 
 createdBy.appendChild(createdByText);
@@ -72,6 +76,7 @@ function logoClick()
   handbagContainer.style.display = "none";
   bootContainer.style.display = "none";
   storyContainer.style.display = "none";
+  socialEntContainer.style.display = "none";
 }
 
 function instaClick()
@@ -85,6 +90,7 @@ function storyClick() {
   handbagContainer.style.display = "none";
   bootContainer.style.display = "none";
   storyContainer.style.display = "flex";
+  socialEntContainer.style.display = "none";
 }
 
 function handbagClick() {
@@ -93,6 +99,7 @@ function handbagClick() {
   handbagContainer.style.display = "flex";
   bootContainer.style.display = "none";
   storyContainer.style.display = "none";
+  socialEntContainer.style.display = "none";
 }
 
 function bootsClick() {
@@ -101,6 +108,16 @@ function bootsClick() {
   handbagContainer.style.display = "none";
   bootContainer.style.display = "flex";
   storyContainer.style.display = "none";
+  socialEntContainer.style.display = "none";
+}
+
+function socialEntClick() {
+  window.scrollTo(0, 0);
+  mainContainer.style.display="none";
+  handbagContainer.style.display = "none";
+  bootContainer.style.display = "none";
+  storyContainer.style.display = "none";
+  socialEntContainer.style.display = "flex";
 }
 
 function arrangeClick() {
@@ -126,6 +143,19 @@ rightMenu.appendChild(logoCard);
 
 const leftMenu = document.createElement('div');
 leftMenu.setAttribute('class', 'thinCenterCard');
+
+
+const socialEntMenu = document.createElement('div');
+socialEntMenu.setAttribute('class', 'tinyCard');
+socialEntMenu.style.width="22%";
+const entText = document.createElement('div');
+entText.textContent = "Social Enterprise";
+
+socialEntMenu.addEventListener("click", socialEntClick);
+
+socialEntMenu.appendChild(entText);
+leftMenu.appendChild(socialEntMenu);
+
 
 const storyCard = document.createElement('div');
 storyCard.setAttribute('class', 'tinyCard');
@@ -173,7 +203,6 @@ ourProdCard.addEventListener("click", dropdownClick);
 
 ourProdCard.appendChild(menuDDown);
 leftMenu.appendChild(ourProdCard);
-
 
 
 const contactUsCard = document.createElement('div');
@@ -261,9 +290,21 @@ ourStoryCard.addEventListener("click", storyClick)
 
 ourStoryCard.appendChild(storyPic);
 
+// social enterprise
+const socialEntCard = document.createElement('div');
+socialEntCard.setAttribute('class', 'card');
+
+const entPic = document.createElement('img');
+entPic.src = 'photos/socialEnt.png';
+
+socialEntCard.addEventListener("click", socialEntClick);
+
+socialEntCard.appendChild(entPic);
+
 bootsBagContainter.appendChild(bootsCard);
 bootsBagContainter.appendChild(bagCard);
 bootsBagContainter.appendChild(ourStoryCard);
+bootsBagContainter.appendChild(socialEntCard);
 
 
 // add elements to main container
