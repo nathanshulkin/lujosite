@@ -202,8 +202,8 @@ img {
   cursor: pointer;
   text-align: right;
   float: inline-start;
-  margin-top: -10px;
-  margin-left: -10px;
+  margin-top: -30px;
+  margin-left: -20px;
   margin-bottom: -14px;
 }
 
@@ -250,6 +250,9 @@ img {
   opacity: 0.9;
   z-index: 1;
   overflow: visible;
+  max-width: 100%;
+  max-height: 90%;
+  height: 85px;
 }
 
 
