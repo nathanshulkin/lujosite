@@ -135,7 +135,7 @@ rightMenu.setAttribute('class', 'thinCard')
 const logoCard = document.createElement('div');
 logoCard.setAttribute('class', 'tinyLogoCard');
 const menuLogo = document.createElement('img');
-menuLogo.src = "photos/LUJO_white_FINAL-02.png";
+menuLogo.src = "photos/LUJO_NEW_white_logo_2020.png";
 menuLogo.addEventListener("click", logoClick);
 
 logoCard.appendChild(menuLogo);
@@ -383,7 +383,7 @@ greenPythonImg.src = 'photos/rainbowPython3.JPG';
 greenPython.appendChild(greenPythonImg);
 
 const bluePython = document.createElement('div');
-bluePython.setAttribute('class', 'quarterCard');
+bluePython.setAttribute('class', 'quarterCardText');
 const bluePythonText = document.createElement('p');
 bluePythonText.style.color="#000000";
 bluePythonText.textContent="Python Skin on Foot";
@@ -437,7 +437,7 @@ pinkPython2Img.src = 'photos/pinkPython3.JPG';
 pinkPython2.appendChild(pinkPython2Img);
 
 const bluePython1 = document.createElement('div');
-bluePython1.setAttribute('class', 'quarterCard');
+bluePython1.setAttribute('class', 'quarterCardText');
 const bluePython1Text = document.createElement('p');
 bluePython1Text.style.color="#000000";
 bluePython1Text.textContent="Python Skin on Foot";
@@ -493,7 +493,7 @@ peacock2Img.src = 'photos/peacock3.JPG';
 peacock2.appendChild(peacock2Img);
 
 const bluePython2 = document.createElement('div');
-bluePython2.setAttribute('class', 'quarterCard');
+bluePython2.setAttribute('class', 'quarterCardText');
 const bluePython2Text = document.createElement('p');
 bluePython2Text.style.color="#000000";
 bluePython2Text.textContent="Peacock Skin on Foot";
@@ -603,7 +603,7 @@ kiana2Img.src = 'photos/kiana2.png';
 kiana2.appendChild(kiana2Img);
 
 const bluePython4 = document.createElement('div');
-bluePython4.setAttribute('class', 'quarterCard');
+bluePython4.setAttribute('class', 'quarterCardText');
 const bluePython4Text = document.createElement('p');
 bluePython4Text.style.color="#000000";
 bluePython4Text.textContent="Ostrich Skin on Foot";
@@ -642,7 +642,7 @@ bootPageBootsContainer.appendChild(bluePython4);
 const laura = document.createElement('div');
 laura.setAttribute('class', 'quarterCard');
 const lauraImg = document.createElement('img');
-lauraImg.src = 'photos/laura.png';
+lauraImg.src = 'photos/laura0.png';
 laura.appendChild(lauraImg);
 
 const laura1 = document.createElement('div');
@@ -658,7 +658,7 @@ laura2Img.src = 'photos/laura2.png';
 laura2.appendChild(laura2Img);
 
 const bluePython5 = document.createElement('div');
-bluePython5.setAttribute('class', 'quarterCard');
+bluePython5.setAttribute('class', 'quarterCardText');
 const bluePython5Text = document.createElement('p');
 bluePython5Text.textContent="Ostrich Skin on Foot";
 bluePython5Text.style.color="#000000";
