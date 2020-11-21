@@ -68,6 +68,75 @@ window.onclick = function(event) {
   }
 }
 
+
+// for gitting JSON file
+
+// \brief get JSON file
+// \param(file_name) target JSON file name
+// \ret JSON file
+function get_json(file_name) {
+	var requester = create_http_request();
+	requester.open("GET", file_name, false);
+	requester.send(null);
+	var json_text = requester.responseText;
+	var data = json_parser(json_text);
+	return data;
+}
+// \brief create requester for getting files
+// \todo support old browser (ex: IE6, IE5)
+function create_http_request() {
+	var requester = null;
+	// for modern browser
+	if(window.XMLHttpRequest) {
+		requester = new XMLHttpRequest();
+	}
+	return requester;
+}
+// \brief return true when posible JSON object
+// refer to "http://stackoverflow.com/questions/1787020/json-object-in-ie6-how"
+function enable_json() {
+	if(!this.JSON) {
+		return false;
+	}
+	return true;
+}
+// \brief translate JSON into Javascript object
+// \param(json_data) JSON
+// \ret 
+function json_parser(json_data) {
+	var data = new String();
+	
+	if(enable_json()) {
+		data = JSON.parse(json_data);
+	}
+	else {
+		// security warning because use eval function
+		data = eval("(" + json_data + ")");
+	}
+	
+	return data;
+}
+
+
+function createMoon(words){
+
+    var spagh = document.createElement('div');
+    spagh.setAttribute('class', 'moon p')
+    spagh.textContent=words;
+
+    return spagh;
+}
+
+function createNix(words){
+
+    var spagh = document.createElement('div');
+    spagh.setAttribute('class', 'nix p')
+    spagh.textContent=words;
+
+    return spagh;
+}
+
+
 // button clicks
 function logoClick()
 {
@@ -328,6 +397,8 @@ const bibidyBootsPic = document.createElement('img');
 bibidyBootsPic.src = 'photos/blackBckBoots.jpg';
 
 bibidyBootsCard.appendChild(bibidyBootsPic);
+
+//var bootsJson = get_json("");
 
 const bibidyBootsText = document.createElement('div');
 bibidyBootsText.setAttribute('class', 'twoThirdCard');
