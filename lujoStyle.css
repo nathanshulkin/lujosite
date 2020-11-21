@@ -127,6 +127,12 @@ img {
   padding: 10px;
 }
 
+.thirdCard:hover {
+  box-shadow: 2px 12px 45px rgba(0, 0, 0, 0.45);
+  transform: translate3d(0, -2px, 0);
+  cursor: pointer;
+}
+
 .quarterCard {
   display: block;
   margin-left: auto;
@@ -155,6 +161,18 @@ img {
   box-shadow: 2px 8px 30px rgba(0, 0, 0, 0.45);
   transform: translate3d(0, -2px, 0);
   cursor: pointer;
+}
+
+.fifthCard {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 16%;
+  height: 100%;
+  position: sticky;
+  left: 0;
+  right: 0;
+  padding: 10px;
 }
 
 

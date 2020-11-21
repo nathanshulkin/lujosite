@@ -434,105 +434,58 @@ bootPageBootsContainer.setAttribute('class', 'container');
 bootPageBootsContainer.style.backgroundColor="#FCFCFC";
 
 
-// first line of rainbow python boots
+// first line of python boots
 const rainPython = document.createElement('div');
-rainPython.setAttribute('class', 'quarterCard');
+rainPython.setAttribute('class', 'thirdCard');
 const rainPythonImg = document.createElement('img');
 rainPythonImg.src = 'photos/rainbowPython.JPG';
 rainPython.appendChild(rainPythonImg);
 
 const redPython = document.createElement('div');
-redPython.setAttribute('class', 'quarterCard');
+redPython.setAttribute('class', 'thirdCard');
 const redPythonImg = document.createElement('img');
-redPythonImg.src = 'photos/rainbowPython2.JPG';
+redPythonImg.src = 'photos/blueBoots.jpg';
 redPython.appendChild(redPythonImg);
 
 const greenPython = document.createElement('div');
-greenPython.setAttribute('class', 'quarterCard');
+greenPython.setAttribute('class', 'thirdCard');
 const greenPythonImg = document.createElement('img');
-greenPythonImg.src = 'photos/rainbowPython3.JPG';
+greenPythonImg.src = 'photos/pinkPython.JPG';
 greenPython.appendChild(greenPythonImg);
 
-const bluePython = document.createElement('div');
-bluePython.setAttribute('class', 'quarterCardText');
-const bluePythonText = document.createElement('p');
-bluePythonText.style.color="#000000";
-bluePythonText.textContent="Python Skin on Foot";
-bluePython.appendChild(bluePythonText);
-
-const bootText = document.createElement('p');
-bootText.style.color="#000000";
-bootText.textContent="14 \" Height";
-bluePython.appendChild(bootText);
-
-const bootText1 = document.createElement('p');
-bootText1.style.color="#000000";
-bootText1.textContent="100% Merino Wool Upper";
-bluePython.appendChild(bootText1);
-
-const bootText2 = document.createElement('p');
-bootText2.style.color="#000000";
-bootText2.textContent="5/8 \" Box Toe";
-bluePython.appendChild(bootText2);
-
-const bootText3 = document.createElement('p');
-bootText3.style.color="#000000";
-bootText3.textContent="2 \" Heel";
-bluePython.appendChild(bootText3);
 
 bootPageBootsContainer.appendChild(rainPython);
 bootPageBootsContainer.appendChild(redPython);
 bootPageBootsContainer.appendChild(greenPython);
-bootPageBootsContainer.appendChild(bluePython);
 
 
 
-// second line of pink python boots
+// second line of boots
 
 const pinkPython = document.createElement('div');
-pinkPython.setAttribute('class', 'quarterCard');
+pinkPython.setAttribute('class', 'fifthCard');
 const pinkPythonImg = document.createElement('img');
-pinkPythonImg.src = 'photos/pinkPython.JPG';
+pinkPythonImg.src = '';
 pinkPython.appendChild(pinkPythonImg);
 
 const pinkPython1 = document.createElement('div');
-pinkPython1.setAttribute('class', 'quarterCard');
+pinkPython1.setAttribute('class', 'thirdCard');
 const pinkPython1Img = document.createElement('img');
-pinkPython1Img.src = 'photos/pinkPython2.JPG';
+pinkPython1Img.src = 'photos/kiana.jpg';
 pinkPython1.appendChild(pinkPython1Img);
 
 const pinkPython2 = document.createElement('div');
-pinkPython2.setAttribute('class', 'quarterCard');
+pinkPython2.setAttribute('class', 'thirdCard');
 const pinkPython2Img = document.createElement('img');
-pinkPython2Img.src = 'photos/pinkPython3.JPG';
+pinkPython2Img.src = 'photos/laura.jpg';
 pinkPython2.appendChild(pinkPython2Img);
 
 const bluePython1 = document.createElement('div');
-bluePython1.setAttribute('class', 'quarterCardText');
+bluePython1.setAttribute('class', 'fifthCard');
 const bluePython1Text = document.createElement('p');
 bluePython1Text.style.color="#000000";
-bluePython1Text.textContent="Python Skin on Foot";
+bluePython1Text.textContent="";
 bluePython1.appendChild(bluePython1Text);
-
-const bootText10 = document.createElement('p');
-bootText10.style.color="#000000";
-bootText10.textContent="14 \" Height";
-bluePython1.appendChild(bootText10);
-
-const bootText11 = document.createElement('p');
-bootText11.style.color="#000000";
-bootText11.textContent="100% Merino Wool Upper";
-bluePython1.appendChild(bootText11);
-
-const bootText12 = document.createElement('p');
-bootText12.style.color="#000000";
-bootText12.textContent="5/8 \" Box Toe";
-bluePython1.appendChild(bootText12);
-
-const bootText13 = document.createElement('p');
-bootText13.style.color="#000000";
-bootText13.textContent="2 \" Heel";
-bluePython1.appendChild(bootText13);
 
 
 bootPageBootsContainer.appendChild(pinkPython);
@@ -543,224 +496,60 @@ bootPageBootsContainer.appendChild(bluePython1);
 
 
 
-// third line of peacock boots
+// third line of boots
 
 const peacock = document.createElement('div');
-peacock.setAttribute('class', 'quarterCard');
+peacock.setAttribute('class', 'fifthCard');
 const peacockImg = document.createElement('img');
-peacockImg.src = 'photos/peacockUpdate.png';
+peacockImg.src = 'photos/sideFirst.jpg';
 peacock.appendChild(peacockImg);
 
 const peacock1 = document.createElement('div');
-peacock1.setAttribute('class', 'quarterCard');
+peacock1.setAttribute('class', 'fifthCard');
 const peacock1Img = document.createElement('img');
-peacock1Img.src = 'photos/peacock2.JPG';
+peacock1Img.src = 'photos/sideSecond.jpg';
 peacock1.appendChild(peacock1Img);
 
 const peacock2 = document.createElement('div');
-peacock2.setAttribute('class', 'quarterCard');
+peacock2.setAttribute('class', 'fifthCard');
 const peacock2Img = document.createElement('img');
-peacock2Img.src = 'photos/peacock3.JPG';
+peacock2Img.src = 'photos/peacock2.JPG';
 peacock2.appendChild(peacock2Img);
 
-const bluePython2 = document.createElement('div');
-bluePython2.setAttribute('class', 'quarterCardText');
-const bluePython2Text = document.createElement('p');
-bluePython2Text.style.color="#000000";
-bluePython2Text.textContent="Peacock Skin on Foot";
-bluePython2.appendChild(bluePython2Text);
+const peacock3 = document.createElement('div');
+peacock3.setAttribute('class', 'fifthCard');
+const peacock3Img = document.createElement('img');
+peacock3Img.src = 'photos/sideFourth.jpg';
+peacock3.appendChild(peacock3Img);
 
-const bootText20 = document.createElement('p');
-bootText20.style.color="#000000";
-bootText20.textContent="14 \" Height";
-bluePython2.appendChild(bootText20);
-
-const bootText21 = document.createElement('p');
-bootText21.style.color="#000000";
-bootText21.textContent="100% Merino Wool Upper";
-bluePython2.appendChild(bootText21);
-
-const bootText22 = document.createElement('p');
-bootText22.style.color="#000000";
-bootText22.textContent="5/8 \" Box Toe";
-bluePython2.appendChild(bootText22);
-
-const bootText23 = document.createElement('p');
-bootText23.style.color="#000000";
-bootText23.textContent="2 \" Heel";
-bluePython2.appendChild(bootText23);
+const peacock4 = document.createElement('div');
+peacock4.setAttribute('class', 'fifthCard');
+const peacock4Img = document.createElement('img');
+peacock4Img.src = 'photos/sideFifth.png';
+peacock4.appendChild(peacock4Img);
 
 
 bootPageBootsContainer.appendChild(peacock);
 bootPageBootsContainer.appendChild(peacock1);
 bootPageBootsContainer.appendChild(peacock2);
-bootPageBootsContainer.appendChild(bluePython2);
+bootPageBootsContainer.appendChild(peacock3);
+bootPageBootsContainer.appendChild(peacock4);
 
+// fourth line for text
+const bootJsonCard = document.createElement('div');
+bootJsonCard.setAttribute('class', 'entireCard');
 
+const bootJsonText = document.createElement('p');
+bootJsonText.style.color="black";
+bootJsonText.textContent="boots";
 
-// fourth line of ostrich boots
-/*
-const ostrich = document.createElement('div');
-ostrich.setAttribute('class', 'quarterCard');
-const ostrichImg = document.createElement('img');
-ostrichImg.src = 'photos/ostrich.jpg';
-ostrich.appendChild(ostrichImg);
+const bootJsonText1 = document.createElement('p');
+bootJsonText1.style.color="black";
+bootJsonText1.textContent="boooots";
 
-const ostrich1 = document.createElement('div');
-ostrich1.setAttribute('class', 'quarterCard');
-const ostrich1Img = document.createElement('img');
-ostrich1Img.src = 'photos/ostrich1.jpg';
-ostrich1.appendChild(ostrich1Img);
-
-const ostrich2 = document.createElement('div');
-ostrich2.setAttribute('class', 'quarterCard');
-const ostrich2Img = document.createElement('img');
-ostrich2Img.src = 'photos/ostrich2.jpg';
-ostrich2.appendChild(ostrich2Img);
-
-const bluePython3 = document.createElement('div');
-bluePython3.setAttribute('class', 'quarterCard');
-const bluePython3Text = document.createElement('p');
-bluePython3Text.style.color="#000000";
-bluePython3Text.textContent="Ostrich Skin on Foot";
-bluePython3.appendChild(bluePython3Text);
-
-const bootText30 = document.createElement('p');
-bootText30.style.color="#000000";
-bootText30.textContent="14 \" Height";
-bluePython3.appendChild(bootText30);
-
-const bootText31 = document.createElement('p');
-bootText31.style.color="#000000";
-bootText31.textContent="100% Merino Wool Upper";
-bluePython3.appendChild(bootText31);
-
-const bootText32 = document.createElement('p');
-bootText32.style.color="#000000";
-bootText32.textContent="5/8 \" Box Toe";
-bluePython3.appendChild(bootText32);
-
-const bootText33 = document.createElement('p');
-bootText33.style.color="#000000";
-bootText33.textContent="2 \" Heel";
-bluePython3.appendChild(bootText33);
-
-
-bootPageBootsContainer.appendChild(ostrich);
-bootPageBootsContainer.appendChild(ostrich1);
-bootPageBootsContainer.appendChild(ostrich2);
-bootPageBootsContainer.appendChild(bluePython3);
-*/
-
-
-// fifth line of kiana boots
-
-const kiana = document.createElement('div');
-kiana.setAttribute('class', 'quarterCard');
-const kianaImg = document.createElement('img');
-kianaImg.src = 'photos/kiana.png';
-kiana.appendChild(kianaImg);
-
-const kiana1 = document.createElement('div');
-kiana1.setAttribute('class', 'quarterCard');
-const kiana1Img = document.createElement('img');
-kiana1Img.src = 'photos/kiana1.png';
-kiana1.appendChild(kiana1Img);
-
-const kiana2 = document.createElement('div');
-kiana2.setAttribute('class', 'quarterCard');
-const kiana2Img = document.createElement('img');
-kiana2Img.src = 'photos/kiana2.png';
-kiana2.appendChild(kiana2Img);
-
-const bluePython4 = document.createElement('div');
-bluePython4.setAttribute('class', 'quarterCardText');
-const bluePython4Text = document.createElement('p');
-bluePython4Text.style.color="#000000";
-bluePython4Text.textContent="Ostrich Skin on Foot";
-bluePython4.appendChild(bluePython4Text);
-
-const bootText40 = document.createElement('p');
-bootText40.style.color="#000000";
-bootText40.textContent="?? \" Height";
-bluePython4.appendChild(bootText40);
-
-const bootText41 = document.createElement('p');
-bootText41.style.color="#000000";
-bootText41.textContent="100% Merino Wool Upper";
-bluePython4.appendChild(bootText41);
-
-const bootText42 = document.createElement('p');
-bootText42.style.color="#000000";
-bootText42.textContent="5/8 \" Box Toe";
-bluePython4.appendChild(bootText42);
-
-const bootText43 = document.createElement('p');
-bootText43.style.color="#000000";
-bootText43.textContent="2 \" Heel";
-bluePython4.appendChild(bootText43);
-
-
-bootPageBootsContainer.appendChild(kiana);
-bootPageBootsContainer.appendChild(kiana1);
-bootPageBootsContainer.appendChild(kiana2);
-bootPageBootsContainer.appendChild(bluePython4);
-
-
-
-// sixth line of laura boots
-
-const laura = document.createElement('div');
-laura.setAttribute('class', 'quarterCard');
-const lauraImg = document.createElement('img');
-lauraImg.src = 'photos/laura0.png';
-laura.appendChild(lauraImg);
-
-const laura1 = document.createElement('div');
-laura1.setAttribute('class', 'quarterCard');
-const laura1Img = document.createElement('img');
-laura1Img.src = 'photos/laura1.png';
-laura1.appendChild(laura1Img);
-
-const laura2 = document.createElement('div');
-laura2.setAttribute('class', 'quarterCard');
-const laura2Img = document.createElement('img');
-laura2Img.src = 'photos/laura2.png';
-laura2.appendChild(laura2Img);
-
-const bluePython5 = document.createElement('div');
-bluePython5.setAttribute('class', 'quarterCardText');
-const bluePython5Text = document.createElement('p');
-bluePython5Text.textContent="Ostrich Skin on Foot";
-bluePython5Text.style.color="#000000";
-bluePython5.appendChild(bluePython5Text);
-
-const bootText50 = document.createElement('p');
-bootText50.style.color="#000000";
-bootText50.textContent="?? \" Height";
-bluePython4.appendChild(bootText50);
-
-const bootText51 = document.createElement('p');
-bootText51.style.color="#000000";
-bootText51.textContent="100% Merino Wool Upper";
-bluePython5.appendChild(bootText41);
-
-const bootText52 = document.createElement('p');
-bootText52.style.color="#000000";
-bootText52.textContent="5/8 \" Box Toe";
-bluePython5.appendChild(bootText52);
-
-const bootText53 = document.createElement('p');
-bootText53.style.color="#000000";
-bootText53.textContent="2 \" Heel";
-bluePython5.appendChild(bootText53);
-
-
-bootPageBootsContainer.appendChild(laura);
-bootPageBootsContainer.appendChild(laura1);
-bootPageBootsContainer.appendChild(laura2);
-bootPageBootsContainer.appendChild(bluePython5);
-
+bootJsonCard.appendChild(bootJsonText);
+bootJsonCard.appendChild(bootJsonText1);
+bootPageBootsContainer.appendChild(bootJsonCard);
 
 bootContainer.appendChild(headBootCont);
 bootContainer.appendChild(bootPageBootsContainer);
