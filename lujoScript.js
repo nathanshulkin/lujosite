@@ -398,26 +398,23 @@ bibidyBootsPic.src = 'photos/blackBckBoots.jpg';
 
 bibidyBootsCard.appendChild(bibidyBootsPic);
 
-//var bootsJson = get_json("");
+var bootsJson = get_json("https://raw.githubusercontent.com/nathanshulkin/lujosite/master/lujoText.json");
 
 const bibidyBootsText = document.createElement('div');
 bibidyBootsText.setAttribute('class', 'twoThirdCard');
 
 const headBootTxt = document.createElement('p');
-headBootTxt.textContent = "Enhance your boot collection with a pair of LUJO boots.";
+headBootTxt.textContent = bootsJson.boots[0];
 
 const headBootTxt1 = document.createElement('p');
-headBootTxt1.textContent = "LUJO boots are handcrafted using textiles created by a collaboration" + 
-" of artisas in Patagonia, Chile. LUJO artisans create one of a kind textiles using both" + 
-"scarce and extremely fine fiber.";
+headBootTxt1.textContent = bootsJson.boots[1];
 
 const headBootTxt2 = document.createElement('p');
-headBootTxt2.textContent = "Chilean artisans create LUJO textiles in small batches using a" + 
-" time honored process. LUJO textiles - one of a kind design.";
+headBootTxt2.textContent = bootsJson.boots[2];
 
 const headBootTxt3 = document.createElement('p');
-headBootTxt3.textContent = "LUJO partners with Back at the Ranch boots... to design versatile" + 
-" boots that fit your personal style.";
+headBootTxt3.textContent = bootsJson.boots[3];
+
 
 bibidyBootsText.appendChild(headBootTxt);
 bibidyBootsText.appendChild(headBootTxt1);
@@ -535,21 +532,30 @@ bootPageBootsContainer.appendChild(peacock2);
 bootPageBootsContainer.appendChild(peacock3);
 bootPageBootsContainer.appendChild(peacock4);
 
-// fourth line for text
+// fourth + fifth lines for text
 const bootJsonCard = document.createElement('div');
 bootJsonCard.setAttribute('class', 'entireCard');
 
 const bootJsonText = document.createElement('p');
 bootJsonText.style.color="black";
-bootJsonText.textContent="boots";
+bootJsonText.style.margin="auto";
+bootJsonText.style.textAlign="center";
+bootJsonText.textContent=bootsJson.boots[4];
+
+const bootJsonCard1 = document.createElement('div');
+bootJsonCard1.setAttribute('class', 'entireCard');
 
 const bootJsonText1 = document.createElement('p');
 bootJsonText1.style.color="black";
-bootJsonText1.textContent="boooots";
+bootJsonText1.style.margin="auto";
+bootJsonText.style.textAlign="center";
+bootJsonText1.textContent=bootsJson.boots[5];
+
 
 bootJsonCard.appendChild(bootJsonText);
-bootJsonCard.appendChild(bootJsonText1);
+bootJsonCard1.appendChild(bootJsonText1);
 bootPageBootsContainer.appendChild(bootJsonCard);
+bootPageBootsContainer.appendChild(bootJsonCard1);
 
 bootContainer.appendChild(headBootCont);
 bootContainer.appendChild(bootPageBootsContainer);
